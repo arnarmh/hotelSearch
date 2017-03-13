@@ -1,4 +1,4 @@
-package hbv401g.hotelsearch;
+package hbv401g;
 
 import java.awt.EventQueue;
 
