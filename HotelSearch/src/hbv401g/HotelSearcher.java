@@ -1,5 +1,7 @@
 package hbv401g;
 
+import java.util.ArrayList;
+
 public class HotelSearcher {
 	private StorageControllerMock storageController;
 	

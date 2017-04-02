@@ -1,4 +1,7 @@
 package hbv401g;
+import static org.junit.Assert.*;
+
+import org.junit.Test;
 
 public class HotelSearcherTest {
 
