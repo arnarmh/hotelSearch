@@ -9,11 +9,12 @@ public class HotelSearcher {
 		storageController = new StorageControllerMock();
 	}
 	
+	
 	public ArrayList<Hotel> searchByLocation(String location) {
 		return storageController.getHotelsByLocation(location);
 	}
 	
-	public ArrayList<Hotel> sortByPrice(ArrayList<Hotel>, String order) {
+	/*public ArrayList<Hotel> sortByPrice(ArrayList<Hotel>, String order) {
 		if(order.equals("desc")) {
 			//...
 		}
@@ -23,6 +24,6 @@ public class HotelSearcher {
 		else {
 			throw new Exception();
 		}
-	}
+	}*/
 
 }

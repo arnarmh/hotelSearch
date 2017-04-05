@@ -11,9 +11,9 @@ public class hotelSearchTestCase {
 
 	public void setUp() {
 		expectedResults = new ArrayList<Hotel>();		
-		expectedResults.add(new Hotel("Radison", "Reykjavík", 3.5, 8990, true, true, false));
-		expectedResults.add(new Hotel("Hotel Natura", "Reykjavík", 4, 9990, true, false, false));
-		expectedResults.add(new Hotel("Hotel Jón", "Reykjavík", 4, 3990, false, false, false));
+		expectedResults.add(new Hotel("Radison", "Reykjavï¿½k", 3.5, 8990, true, true, false));
+		expectedResults.add(new Hotel("Hotel Natura", "Reykjavï¿½k", 4, 9990, true, false, false));
+		expectedResults.add(new Hotel("Hotel Jï¿½n", "Reykjavï¿½k", 4, 3990, false, false, false));
 	}		
 	
 	
@@ -23,11 +23,11 @@ public class hotelSearchTestCase {
 	
 	public void test() {
 		ArrayList<Hotel> results = new ArrayList<Hotel>();
-		results = StorageControllerMock.getHotelsByLocation("Reykjavík");
+		results = StorageControllerMock.getHotelsByLocation("Reykjavï¿½k");
 		assertEquals(results,expectedResults);
 		/*
 		if(results.size() != expectedResults.size()) {
-			//Prófið feilaði
+			//Prï¿½fiï¿½ feilaï¿½i
 		}
 		else {
 			//
