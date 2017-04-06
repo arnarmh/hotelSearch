@@ -7,14 +7,14 @@ public class StorageControllerMock {
 	
 	public  StorageControllerMock() {
 		hotels = new ArrayList<Hotel>();
-		hotels.add(new Hotel("Radison", "Reykjav�k", 3.5, 8990, true, true, false));
-		hotels.add(new Hotel("Hotel Natura", "Reykjav�k", 4, 9990, true, false, false));
+		hotels.add(new Hotel("Radison", "Reykjavik", 3.5, 8990, true, true, false));
+		hotels.add(new Hotel("Hotel Natura", "Reykjavik", 4, 9990, true, false, false));
 		hotels.add(new Hotel("Hotel Kea", "Akureyri", 2.5, 7990, true, false, false));
-		hotels.add(new Hotel("Hotel Keflav�k", "Keflav�k", 4.5, 10990, true, false, false));
+		hotels.add(new Hotel("Hotel Keflavik", "Keflavik", 4.5, 10990, true, false, false));
 		hotels.add(new Hotel("Hotel Arnar", "Egilsstadir", 5, 12990, true, true, true));
-		hotels.add(new Hotel("Hotel J�n", "Reykjav�k", 4, 3990, false, false, false));
-		hotels.add(new Hotel("Hotel Vodka", "�safj�r�ur", 1, 990, true, true, true));
-		hotels.add(new Hotel("Hotel Vamp�ra", "H�sav�k", 5, 19990, false, true, false));
+		hotels.add(new Hotel("Hotel Jon", "Reykjavik", 4, 3990, false, false, false));
+		hotels.add(new Hotel("Hotel Vodka", "Isafjordur", 1, 990, true, true, true));
+		hotels.add(new Hotel("Hotel Vampyra", "Husavik", 5, 19990, false, true, false));
 		
 	}
 	
